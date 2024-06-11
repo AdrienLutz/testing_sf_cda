@@ -6,6 +6,6 @@ class Greetings
 {
     public function greet(string $name): string
     {
-        return "Helllo, $name!";
+        return "Hello, $name!";
     }
 }
