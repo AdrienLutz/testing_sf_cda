@@ -36,6 +36,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-php-
     - name: Install Dependencies
+    # erreur 500 à la base corrigée avec ce nouveau run composer
       run: composer install --prefer-dist --no-progress
     - name: Create Database
       run: |
